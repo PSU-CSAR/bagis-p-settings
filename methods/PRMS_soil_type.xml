@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>20</Id>
+  <Name>PRMS_soil_type</Name>
+  <Description>Finds the dominant soil texture for each zone, expressed as (1 =sand; 2 = silt; 3 = clay). The Weasel includes a PRMS soil texture grid (derived from STATSGO) that covers the U.S., which is also packaged with BAGIS-P. This method simply finds the majority PRMS texture class for each HRU zone.</Description>
+  <ToolboxName>bagis_p_soil_methods.tbx</ToolboxName>
+  <ModelName>PRMSSoilType</ModelName>
+  <ModelLabel>PRMS_soil_type</ModelLabel>
+  <ToolBoxPath>C:\BAGIS\BAGIS\methods</ToolBoxPath>
+  <ModelParameters>
+    <ModelParameter>
+      <Id>1</Id>
+      <Name>sys_hru_folder</Name>
+      <Value xsi:type="xsd:string">C:\Stehekin\AOI_FGDB\zones\CA_elim</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>2</Id>
+      <Name>db_PRMS_soil_texture_grid</Name>
+      <Value xsi:type="xsd:string">Soil_Texture</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>3</Id>
+      <Name>fld_soil_type</Name>
+      <Value xsi:type="xsd:string">soil_type</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>4</Id>
+      <Name>sys_param_table</Name>
+      <Value xsi:type="xsd:string">profile1_params</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>5</Id>
+      <Name>sys_aoi_path</Name>
+      <Value xsi:type="xsd:string">C:\Stehekin\AOI_FGDB</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>6</Id>
+      <Name>sys_hru_name</Name>
+      <Value xsi:type="xsd:string">CA_elim</Value>
+    </ModelParameter>
+  </ModelParameters>
+  <StatusText>Pending</StatusText>
+  <FilledModelParameters />
+  <UseMethod>true</UseMethod>
+  <ValidationMessages />
+  <Validated>True</Validated>
+</Method>

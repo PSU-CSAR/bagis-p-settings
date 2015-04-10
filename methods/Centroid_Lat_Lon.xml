@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>3</Id>
+  <Name>Centroid_Lat_Lon</Name>
+  <Description>Gives the lat and long value of the centroid of each HRU in decimal degrees</Description>
+  <ToolboxName>bagis_p_generic_methods.tbx</ToolboxName>
+  <ModelName>CentroidLatLon</ModelName>
+  <ModelLabel>Centroid_Lat_Lon</ModelLabel>
+  <ToolBoxPath>C:\BAGIS\BAGIS\methods</ToolBoxPath>
+  <ModelParameters>
+    <ModelParameter>
+      <Id>1</Id>
+      <Name>sys_param_table</Name>
+      <Value xsi:type="xsd:string">profile1_params</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>2</Id>
+      <Name>sys_hru_name</Name>
+      <Value xsi:type="xsd:string">hru_ca</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>3</Id>
+      <Name>sys_hru_folder</Name>
+      <Value xsi:type="xsd:string">C:\Documents and Settings\Lesley\Local Settings\Temp\BAGIS\AOIs\ochoco_FGDB\ochoco_FGDB\zones\hru_ca</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>4</Id>
+      <Name>sys_aoi_path</Name>
+      <Value xsi:type="xsd:string">C:\Users\Madeline\Documents\BAGIS\AOIs\ochoco_FGDB\ochoco_FGDB</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>5</Id>
+      <Name>fld_lon</Name>
+      <Value xsi:type="xsd:string">Lon_of_Centroid</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>6</Id>
+      <Name>fld_lat</Name>
+      <Value xsi:type="xsd:string">Lat_of_Centroid</Value>
+    </ModelParameter>
+  </ModelParameters>
+  <StatusText>Pending</StatusText>
+  <FilledModelParameters />
+  <UseMethod>true</UseMethod>
+  <ValidationMessages />
+  <Validated>True</Validated>
+</Method>

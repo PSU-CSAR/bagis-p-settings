@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>22</Id>
+  <Name>Hru_Radpl</Name>
+  <Description>Index number for radiation plans. Same value as ERAMS_ID in BAGIS-P</Description>
+  <ToolboxName>bagis_topographic_methods.tbx</ToolboxName>
+  <ModelName>HruRadpl</ModelName>
+  <ModelLabel>Hru_Radpl</ModelLabel>
+  <ToolBoxPath>C:\BAGIS\BAGIS\methods</ToolBoxPath>
+  <ModelParameters>
+    <ModelParameter>
+      <Id>1</Id>
+      <Name>fld_hru_radpl</Name>
+      <Value xsi:type="xsd:string">hru_radpl</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>2</Id>
+      <Name>sys_param_table</Name>
+      <Value xsi:type="xsd:string">C:\Docs\Lesley\ochoco_FGDB\zones\hru_ca\param.gdb\Profile_topo_params</Value>
+    </ModelParameter>
+  </ModelParameters>
+  <StatusText>Missing</StatusText>
+  <FilledModelParameters />
+  <UseMethod>true</UseMethod>
+  <ValidationMessages />
+  <Validated>True</Validated>
+</Method>

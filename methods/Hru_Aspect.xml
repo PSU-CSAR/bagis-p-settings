@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>9</Id>
+  <Name>Hru_Aspect</Name>
+  <Description>Derives temporary integer aspect raster, and gives the majority aspect for each HRU.
+
+</Description>
+  <ToolboxName>bagis_topographic_methods.tbx</ToolboxName>
+  <ModelName>HruAspect</ModelName>
+  <ModelLabel>Hru_Aspect</ModelLabel>
+  <ToolBoxPath>C:\BAGIS\BAGIS\methods</ToolBoxPath>
+  <ModelParameters>
+    <ModelParameter>
+      <Id>1</Id>
+      <Name>fld_hru_aspect</Name>
+      <Value xsi:type="xsd:string">hru_aspect</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>2</Id>
+      <Name>sys_hru_name</Name>
+      <Value xsi:type="xsd:string">hru_ca</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>3</Id>
+      <Name>sys_aoi_path</Name>
+      <Value xsi:type="xsd:string">C:\Docs\Lesley\ochoco_FGDB</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>4</Id>
+      <Name>sys_param_table</Name>
+      <Value xsi:type="xsd:string">C:\Docs\Lesley\ochoco_FGDB\zones\hru_ca\param.gdb\Profile_topo_params</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>5</Id>
+      <Name>sys_hru_folder</Name>
+      <Value xsi:type="xsd:string">C:\Docs\Lesley\ochoco_FGDB\zones\hru_ca</Value>
+    </ModelParameter>
+  </ModelParameters>
+  <StatusText>Missing</StatusText>
+  <FilledModelParameters />
+  <UseMethod>true</UseMethod>
+  <ValidationMessages />
+  <Validated>True</Validated>
+</Method>

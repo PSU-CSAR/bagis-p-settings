@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>24</Id>
+  <Name>Rad_Trncf</Name>
+  <Description>Transmission coefficient for short-wave radiation through winter plant canopy. This parameter is currently computed from a mathematical formula created using an average curve George Leavesley developed from 2 curves reported in the literature. There are probably more current relations reported in the literature but in most cases they are a function of the cover density of the dominant vegetation canopy. The current equation is
+     rad_trncf = a * e(-b * x)
+where a= 0.9917,  b= 2.7557, and x is the vegetation winter cover density (covden_win). rad_trncf varies by vegetation type but there are limited data available for varying this computation.</Description>
+  <ToolboxName>bagis_p_vegetation_methods.tbx</ToolboxName>
+  <ModelName>RadTrncf</ModelName>
+  <ModelLabel>Rad_Trncf</ModelLabel>
+  <ToolBoxPath>C:\BAGIS\BAGIS\methods</ToolBoxPath>
+  <ModelParameters>
+    <ModelParameter>
+      <Id>1</Id>
+      <Name>sys_hru_folder</Name>
+      <Value xsi:type="xsd:string">C:\Docs\Lesley\ochoco_FGDB\zones\hru_ca</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>2</Id>
+      <Name>sys_param_table</Name>
+      <Value xsi:type="xsd:string">C:\Docs\Lesley\ochoco_FGDB\zones\hru_ca\param.gdb\Profile_veg_params</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>3</Id>
+      <Name>sys_hru_name</Name>
+      <Value xsi:type="xsd:string">hru_ca</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>4</Id>
+      <Name>db_cover_type</Name>
+      <Value xsi:type="xsd:string">Landfire_EVT</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>5</Id>
+      <Name>fld_rad_trncf</Name>
+      <Value xsi:type="xsd:string">rad_trncf</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>6</Id>
+      <Name>db_cover_density</Name>
+      <Value xsi:type="xsd:string">Landfire_CC</Value>
+    </ModelParameter>
+  </ModelParameters>
+  <StatusText>Missing</StatusText>
+  <FilledModelParameters />
+  <UseMethod>true</UseMethod>
+  <ValidationMessages />
+  <Validated>True</Validated>
+</Method>

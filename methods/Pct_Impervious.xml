@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>8</Id>
+  <Name>Pct_Impervious</Name>
+  <Description />
+  <ToolboxName>bagis_p_vegetation_methods.tbx</ToolboxName>
+  <ModelName>PctImpervious</ModelName>
+  <ModelLabel>Pct_Impervious</ModelLabel>
+  <ToolBoxPath>C:\BAGIS\BAGIS\methods</ToolBoxPath>
+  <ModelParameters>
+    <ModelParameter>
+      <Id>1</Id>
+      <Name>sys_hru_folder</Name>
+      <Value xsi:type="xsd:string">C:\Documents and Settings\Stehekin\AOI_FGDB\zones\HRUs</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>2</Id>
+      <Name>fld_hru_percent_imperv</Name>
+      <Value xsi:type="xsd:string">hru_percent_imperv</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>3</Id>
+      <Name>sys_param_table</Name>
+      <Value xsi:type="xsd:string">C:\Documents and Settings\Stehekin\AOI_FGDB\zones\HRUs\param.gdb\profile1_params</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>4</Id>
+      <Name>sys_aoi_path</Name>
+      <Value xsi:type="xsd:string">C:\Stehekin\AOI_FGDB</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>5</Id>
+      <Name>db_NLCD_pct_impervious</Name>
+      <Value xsi:type="xsd:string">NLCD_Impervious</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>6</Id>
+      <Name>sys_hru_name</Name>
+      <Value xsi:type="xsd:string">HRUs</Value>
+    </ModelParameter>
+  </ModelParameters>
+  <StatusText>Pending</StatusText>
+  <FilledModelParameters />
+  <UseMethod>true</UseMethod>
+  <ValidationMessages />
+  <Validated>True</Validated>
+</Method>

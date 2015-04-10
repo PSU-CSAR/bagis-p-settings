@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>12</Id>
+  <Name>Temp_Adj_Min</Name>
+  <Description>Derives max temperature adjustment (F) from aspect grid using a different method:
+
+tmax_adj = -1.8 cos(hru_aspect * 0.0175)
+
+This method is recommended on the USGS PRMS parameterization tutorial website.
+
+The units are degrees F, and should be F even if your inputs are in C and you have set the temp_units flag accordingly.</Description>
+  <ToolboxName>bagis_p_climate_methods.tbx</ToolboxName>
+  <ModelName>TempAdjMin</ModelName>
+  <ModelLabel>Temp_Adj_Min</ModelLabel>
+  <ToolBoxPath>C:\BAGIS\BAGIS\methods</ToolBoxPath>
+  <ModelParameters>
+    <ModelParameter>
+      <Id>1</Id>
+      <Name>sys_param_table</Name>
+      <Value xsi:type="xsd:string">C:\Docs\Lesley\ochoco_FGDB\zones\hru_ca\param.gdb\profile1_params</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>2</Id>
+      <Name>sys_hru_name</Name>
+      <Value xsi:type="xsd:string">hru_ca</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>3</Id>
+      <Name>sys_hru_folder</Name>
+      <Value xsi:type="xsd:string">C:\Docs\Lesley\ochoco_FGDB\zones\hru_ca</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>4</Id>
+      <Name>sys_aoi_path</Name>
+      <Value xsi:type="xsd:string">C:\Docs\Lesley\ochoco_FGDB</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>5</Id>
+      <Name>fld_temp_adj_min</Name>
+      <Value xsi:type="xsd:string">Temp_Adj_Min</Value>
+    </ModelParameter>
+  </ModelParameters>
+  <StatusText>Pending</StatusText>
+  <FilledModelParameters />
+  <UseMethod>true</UseMethod>
+  <ValidationMessages />
+  <Validated>True</Validated>
+</Method>

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>8</Id>
+  <Name>Winter_Rain_Intcp</Name>
+  <Description>Gives the mean winter rain interception storage capacity in inches for each hru, using winter rain interception coefficients developed for the SAF-SRM classes of Landfire_evt by George Leavesley.</Description>
+  <ToolboxName>bagis_p_climate_methods.tbx</ToolboxName>
+  <ModelName>WinterRainIntcp</ModelName>
+  <ModelLabel>Winter_Rain_Intcp</ModelLabel>
+  <ToolBoxPath>C:\BAGIS\BAGIS\methods</ToolBoxPath>
+  <ModelParameters>
+    <ModelParameter>
+      <Id>1</Id>
+      <Name>sys_hru_folder</Name>
+      <Value xsi:type="xsd:string">C:\Documents and Settings\Lesley\Local Settings\Temp\BAGIS\AOIs\ochoco_FGDB\ochoco_FGDB\zones\hru_ca</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>2</Id>
+      <Name>db_landfire_evt</Name>
+      <Value xsi:type="xsd:string">Landfire_EVT</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>3</Id>
+      <Name>sys_param_table</Name>
+      <Value xsi:type="xsd:string">%sys_hru_folder%\param.gdb\profile1_params</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>4</Id>
+      <Name>sys_aoi_path</Name>
+      <Value xsi:type="xsd:string">C:\Users\Madeline\Documents\BAGIS\AOIs\ochoco_FGDB\ochoco_FGDB</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>5</Id>
+      <Name>sys_hru_name</Name>
+      <Value xsi:type="xsd:string">hru_ca</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>6</Id>
+      <Name>fld_wrain_intcp</Name>
+      <Value xsi:type="xsd:string">wrain_intcp</Value>
+    </ModelParameter>
+  </ModelParameters>
+  <StatusText>Pending</StatusText>
+  <FilledModelParameters />
+  <UseMethod>true</UseMethod>
+  <ValidationMessages />
+  <Validated>True</Validated>
+</Method>

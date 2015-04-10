@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>9</Id>
+  <Name>Soil_Recharge_Max</Name>
+  <Description />
+  <ToolboxName>bagis_p_soil_methods.tbx</ToolboxName>
+  <ModelName>soilRchrMax</ModelName>
+  <ModelLabel>Soil_Recharge_Max</ModelLabel>
+  <ToolBoxPath>C:\BAGIS\BAGIS\methods</ToolBoxPath>
+  <ModelParameters>
+    <ModelParameter>
+      <Id>1</Id>
+      <Name>sys_hru_folder</Name>
+      <Value xsi:type="xsd:string">C:\Documents and Settings\Stehekin\AOI_FGDB\zones\HRUs</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>2</Id>
+      <Name>db_landfire_evt</Name>
+      <Value xsi:type="xsd:string">Landfire_EVT</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>3</Id>
+      <Name>sys_param_table</Name>
+      <Value xsi:type="xsd:string">profile1_params</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>4</Id>
+      <Name>sys_aoi_path</Name>
+      <Value xsi:type="xsd:string">C:\Stehekin\AOI_FGDB</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>5</Id>
+      <Name>sys_hru_name</Name>
+      <Value xsi:type="xsd:string">HRUs</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>6</Id>
+      <Name>db_soils</Name>
+      <Value xsi:type="xsd:string">Soil</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>7</Id>
+      <Name>fld_soil_rechr_max</Name>
+      <Value xsi:type="xsd:string">soil_rechr_max</Value>
+    </ModelParameter>
+  </ModelParameters>
+  <StatusText>Pending</StatusText>
+  <FilledModelParameters />
+  <UseMethod>true</UseMethod>
+  <ValidationMessages />
+  <Validated>True</Validated>
+</Method>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>9</Id>
+  <Name>Cov_Den_Sum</Name>
+  <Description>This model calculates summer vegetation density within AOI zones.   Required inputs are a vegetation cover and zone grid.  The vegetation is first reclassified to simplify the landcover - 0 = bare ground, 1 = grass, 2 = shrub, 3 = deciduous trees, 4 = coniferous trees.</Description>
+  <ToolboxName>bagis_p_vegetation_methods.tbx</ToolboxName>
+  <ModelName>CovDenSum</ModelName>
+  <ModelLabel>Cov_Den_Sum</ModelLabel>
+  <ToolBoxPath>C:\BAGIS\BAGIS\methods</ToolBoxPath>
+  <ModelParameters>
+    <ModelParameter>
+      <Id>1</Id>
+      <Name>sys_hru_folder</Name>
+      <Value xsi:type="xsd:string">C:\Docs\Lesley\ochoco_FGDB\zones\hru_ca</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>2</Id>
+      <Name>sys_param_table</Name>
+      <Value xsi:type="xsd:string">C:\Docs\Lesley\ochoco_FGDB\zones\hru_ca\param.gdb\ProSoils_params</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>3</Id>
+      <Name>sys_hru_name</Name>
+      <Value xsi:type="xsd:string">hru_ca</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>4</Id>
+      <Name>fld_covden_sum</Name>
+      <Value xsi:type="xsd:string">covden_sum</Value>
+    </ModelParameter>
+    <ModelParameter>
+      <Id>5</Id>
+      <Name>db_cover_density</Name>
+      <Value xsi:type="xsd:string">Landfire_CC</Value>
+    </ModelParameter>
+  </ModelParameters>
+  <StatusText>Pending</StatusText>
+  <FilledModelParameters />
+  <UseMethod>true</UseMethod>
+  <ValidationMessages />
+  <Validated>True</Validated>
+</Method>
