@@ -38,6 +38,11 @@
       <Name>fld_wrain_intcp</Name>
       <Value xsi:type="xsd:string">wrain_intcp</Value>
     </ModelParameter>
+    <ModelParameter>
+      <Id>7</Id>
+      <Name>db_cover_density</Name>
+      <Value xsi:type="xsd:string">Landfire_EVC_CC</Value>
+    </ModelParameter>
   </ModelParameters>
   <StatusText>Pending</StatusText>
   <FilledModelParameters />

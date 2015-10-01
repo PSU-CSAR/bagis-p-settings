@@ -2,7 +2,7 @@
 # If the parameter is not listed here, it is manually selected
 # Format: parameter name,parameter dimension
 # At this time only nhru and hradpl are acceptable dimensions
-ERAMS_ID,nhru
+# ERAMS_ID,nhru
 cov_type,nhru
 covden_sum,nhru
 covden_win,nhru
@@ -19,6 +19,9 @@ hru_y,nhru
 jh_coef_hru,nhru
 rad_trncf,nhru
 snow_intcp,nhru
+soil_moist_max,nhru
+soil_rechr_max,nhru
+soil_type,nhru
 srain_intcp,nhru
 tmax_adj,nhru
 tmin_adj,nhru

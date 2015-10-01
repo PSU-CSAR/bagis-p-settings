@@ -32,13 +32,13 @@ where a= 0.9917,  b= 2.7557, and x is the vegetation winter cover density (covde
     </ModelParameter>
     <ModelParameter>
       <Id>5</Id>
-      <Name>fld_rad_trncf</Name>
-      <Value xsi:type="xsd:string">rad_trncf</Value>
+      <Name>db_tree_cover_density</Name>
+      <Value xsi:type="xsd:string">Landfire_CC</Value>
     </ModelParameter>
     <ModelParameter>
       <Id>6</Id>
-      <Name>db_cover_density</Name>
-      <Value xsi:type="xsd:string">Landfire_CC</Value>
+      <Name>fld_rad_trncf</Name>
+      <Value xsi:type="xsd:string">rad_trncf</Value>
     </ModelParameter>
   </ModelParameters>
   <StatusText>Missing</StatusText>

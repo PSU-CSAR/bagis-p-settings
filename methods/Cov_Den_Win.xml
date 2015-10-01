@@ -36,7 +36,7 @@
     <ModelParameter>
       <Id>6</Id>
       <Name>db_cover_density</Name>
-      <Value xsi:type="xsd:string">Landfire_CC</Value>
+      <Value xsi:type="xsd:string">Landfire_EVC_CC</Value>
     </ModelParameter>
   </ModelParameters>
   <StatusText>Missing</StatusText>

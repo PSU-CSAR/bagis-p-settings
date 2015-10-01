@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <Profile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Id>1</Id>
-  <Name>Profile_eWSF_PRMS</Name>
+  <Id>2</Id>
+  <Name>Profile_eWSF_PRMS_NWCC</Name>
   <ProfileClass>BA_Public</ProfileClass>
   <Description>Methods that can be used by OMS-PRMS</Description>
   <Version> 1.6.0</Version>
-  <XmlFileName>Profile_eWSF_PRMS.xml</XmlFileName>
+  <XmlFileName>Profile_eWSF_PRMS_NWCC.xml</XmlFileName>
   <MethodNames>
     <string>Area_Acres</string>
     <string>Centroid_Lat_Lon</string>
@@ -26,8 +26,8 @@
     <string>Soil_Moist_Max</string>
     <string>Soil_Recharge_Max</string>
     <string>Summer_Rain_Intcp</string>
-    <string>Temp_Adj_Max</string>
-    <string>Temp_Adj_Min</string>
+    <string>Temp_Adj_Max_Set_to_0</string>
+    <string>Temp_Adj_Min_Set_to_0</string>
     <string>Winter_Rain_Intcp</string>
   </MethodNames>
 </Profile>

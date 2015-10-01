@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataSources>
+    <DataSource>
+      <Id>16</Id>
+      <Name>JH_Coef_Jul_Tmin</Name>
+      <Description>July Min Temperature for JH_Coef estimation</Description>
+      <Source>E:\NRCS\GIS\Static\BAGIS_Data_Bin\BAGIS_DATABIN_09222015.gdb\PRISM_tmin_july</Source>
+      <AoiLayer>false</AoiLayer>
+      <LayerType>Raster</LayerType>
+      <IsValid>true</IsValid>
+      <JH_Coeff>JH_Coef_Jul_Tmin</JH_Coeff>
+    </DataSource>
+    <DataSource>
+      <Id>4</Id>
+      <Name>Landfire_CC</Name>
+      <Description>Landfire_CC, cover density for tree type. This cover density layer is used only for the estimation of rad_trncf parameter.</Description>
+      <Source>E:\NRCS\GIS\Static\BAGIS_Data_Bin\BAGIS_DATABIN_09222015.gdb\LF_us_130cc</Source>
+      <AoiLayer>false</AoiLayer>
+      <LayerType>Raster</LayerType>
+      <IsValid>true</IsValid>
+    </DataSource>
+    <DataSource>
+      <Id>1</Id>
+      <Name>Aspect</Name>
+      <Description>Slope aspect</Description>
+      <Source>AOI aspect layer</Source>
+      <AoiLayer>true</AoiLayer>
+      <LayerType>Raster</LayerType>
+      <IsValid>true</IsValid>
+    </DataSource>
+    <DataSource>
+      <Id>19</Id>
+      <Name>JH_Coef_Aug_Tmax</Name>
+      <Description>August Max Temperature for JH_Coef estimation</Description>
+      <Source>E:\NRCS\GIS\Static\BAGIS_Data_Bin\BAGIS_DATABIN_09222015.gdb\PRISM_tmax_august</Source>
+      <AoiLayer>false</AoiLayer>
+      <LayerType>Raster</LayerType>
+      <IsValid>false</IsValid>
+      <JH_Coeff>JH_Coef_Aug_Tmax</JH_Coeff>
+    </DataSource>
+    <DataSource>
+      <Id>7</Id>
+      <Name>Soil</Name>
+      <Description>Soil</Description>
+      <Source>E:\NRCS\GIS\Static\BAGIS_Data_Bin\BAGIS_DATABIN_09222015.gdb\STATSGO_muid</Source>
+      <AoiLayer>false</AoiLayer>
+      <LayerType>Raster</LayerType>
+      <IsValid>true</IsValid>
+    </DataSource>
+    <DataSource>
+      <Id>18</Id>
+      <Name>JH_Coef_Aug_Tmin</Name>
+      <Description>August Min Temperature for JH_Coef estimation</Description>
+      <Source>E:\NRCS\GIS\Static\BAGIS_Data_Bin\BAGIS_DATABIN_09222015.gdb\PRISM_tmin_august</Source>
+      <AoiLayer>false</AoiLayer>
+      <LayerType>Raster</LayerType>
+      <IsValid>true</IsValid>
+      <JH_Coeff>JH_Coef_Aug_Tmin</JH_Coeff>
+    </DataSource>
+    <DataSource>
+      <Id>3</Id>
+      <Name>FlowAcc</Name>
+      <Description>Flow accumulation</Description>
+      <Source>AOI flow accumulation layer</Source>
+      <AoiLayer>true</AoiLayer>
+      <LayerType>Raster</LayerType>
+      <IsValid>true</IsValid>
+    </DataSource>
+    <DataSource>
+      <Id>6</Id>
+      <Name>NLCD_Impervious</Name>
+      <Description>NLCD % Impervious</Description>
+      <Source>E:\NRCS\GIS\Static\BAGIS_Data_Bin\BAGIS_DATABIN_09222015.gdb\NLCD_imp_2011</Source>
+      <AoiLayer>false</AoiLayer>
+      <LayerType>Raster</LayerType>
+      <IsValid>true</IsValid>
+    </DataSource>
+    <DataSource>
+      <Id>8</Id>
+      <Name>Soil_Texture</Name>
+      <Description>Soil Texture</Description>
+      <Source>E:\NRCS\GIS\Static\BAGIS_Data_Bin\BAGIS_DATABIN_09222015.gdb\STATSGO_muid_texture</Source>
+      <AoiLayer>false</AoiLayer>
+      <LayerType>Raster</LayerType>
+      <IsValid>true</IsValid>
+    </DataSource>
+    <DataSource>
+      <Id>2</Id>
+      <Name>Elevation</Name>
+      <Description>Filled DEM</Description>
+      <Source>AOI filled DEM layer</Source>
+      <AoiLayer>true</AoiLayer>
+      <LayerType>Raster</LayerType>
+      <IsValid>true</IsValid>
+    </DataSource>
+    <DataSource>
+      <Id>5</Id>
+      <Name>Landfire_EVT</Name>
+      <Description>Landfire Existing Vegetation </Description>
+      <Source>E:\NRCS\GIS\Static\BAGIS_Data_Bin\BAGIS_DATABIN_09222015.gdb\LF_us_130evt</Source>
+      <AoiLayer>false</AoiLayer>
+      <LayerType>Raster</LayerType>
+      <IsValid>true</IsValid>
+    </DataSource>
+    <DataSource>
+      <Id>17</Id>
+      <Name>JH_Coef_Jul_Tmax</Name>
+      <Description>July Max Temperature for JH_Coef estimation</Description>
+      <Source>E:\NRCS\GIS\Static\BAGIS_Data_Bin\BAGIS_DATABIN_09222015.gdb\PRISM_tmax_july</Source>
+      <AoiLayer>false</AoiLayer>
+      <LayerType>Raster</LayerType>
+      <IsValid>true</IsValid>
+      <JH_Coeff>JH_Coef_Jul_Tmax</JH_Coeff>
+    </DataSource>
+    <DataSource>
+      <Id>15</Id>
+      <Name>Landfire_EVC_CC</Name>
+      <Description>Cover Density from Landfire EVC layer. This layer includes cover density for all vegetation types (trees, grass, shrub)</Description>
+      <Source>E:\NRCS\GIS\Static\BAGIS_Data_Bin\BAGIS_DATABIN_09222015.gdb\LF_us_130evc_cc</Source>
+      <AoiLayer>false</AoiLayer>
+      <LayerType>Raster</LayerType>
+      <IsValid>true</IsValid>
+    </DataSource>
+  </DataSources>
+</Settings>

@@ -38,6 +38,11 @@
       <Name>sys_hru_name</Name>
       <Value xsi:type="xsd:string">hru_ca</Value>
     </ModelParameter>
+    <ModelParameter>
+      <Id>7</Id>
+      <Name>db_cover_density</Name>
+      <Value xsi:type="xsd:string">Landfire_EVC_CC</Value>
+    </ModelParameter>
   </ModelParameters>
   <StatusText>Pending</StatusText>
   <FilledModelParameters />
